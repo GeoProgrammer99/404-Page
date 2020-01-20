@@ -1,0 +1,48 @@
+body{
+    background-color: white;
+    margin: auto;
+  background-image: url("image/imageFond.jpg");
+    background-repeat:no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+  
+}
+
+h1{
+    color:white;
+    font-size: 4em;
+    display: flex;
+    text-align: center;
+    
+   
+}
+section{
+margin: auto;
+height: 500px;
+width: 800px;
+
+}
+
+a #boutonRedirection{
+height: 50px;
+width: 200px;
+transition-property: background-color;
+transition-property: box-shadow;
+opacity: 0.5;
+
+
+
+
+    transition-duration: 1s;
+   
+    
+
+}
+input{
+    margin-left: 300px;
+}
+a #boutonRedirection:hover{
+ 
+  box-shadow: 5px 5px 5px black;
+    opacity: 1;
+}
